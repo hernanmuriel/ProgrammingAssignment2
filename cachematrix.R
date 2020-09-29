@@ -39,7 +39,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## These part or code check if you have the solve of the matrix of
+## interest. If these exist then you don't need calculate and you
+## can use the cache variable
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   s <- x$getsolve()
